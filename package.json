@@ -1,0 +1,25 @@
+{
+  "name": "weather_journal_app",
+  "version": "1.0.0",
+  "description": "this is the weather journal app package.json file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melsayedshoaib/Weather_Journal_App.git"
+  },
+  "author": "Muhammad Shoaib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melsayedshoaib/Weather_Journal_App/issues"
+  },
+  "homepage": "https://github.com/melsayedshoaib/Weather_Journal_App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
